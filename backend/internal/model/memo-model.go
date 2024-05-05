@@ -1,7 +1,10 @@
 package model
 
+import "time"
+
 type Memory struct {
-	DataType   string
-	DataLoaded int
-	DataCount  string
+	MemoryId   string
+	MemoryDate time.Time
+	MemoryPics []byte
+	MemoryNote string
 }
